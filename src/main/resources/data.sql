@@ -1,0 +1,20 @@
+--INSERT INTO user (email, password_hash, role) VALUES ('demo@localhost', '$2a$10$ebyC4Z5WtCXXc.HGDc1Yoe6CLFzcntFmfse6/pTj7CeDY5I05w16C', 'ADMIN');
+--INSERT INTO user (email, password_hash, role) VALUES ('mitr@gmail.com', '$2a$10$ebyC4Z5WtCXXc.HGDc1Yoe6CLFzcntFmfse6/pTj7CeDY5I05w16C', 'ADMIN');
+--
+--create table drugs (PRODUCT_ID int NOT NULL AUTO_INCREMENT,PRODUCTNDC varchar(40),PRODUCTTYPENAME varchar(40),PROPRIETARYNAME varchar(40),PROPRINAMESUF varchar(40),NONPROPRINAME varchar(40),DOSAGEFORMNAME varchar(40),ROUTENAME varchar(40),STARTDATE varchar(40),ENDDATE varchar(40),CATEGORYNAME varchar(40),APPLICATIONNUMBER varchar(40),LABELERNAME varchar(40),SUBSTANCENAME varchar(40),ACTIVE_NUMERATOR_STRENGTH varchar(40),ACTIVE_INGRED_UNIT varchar(40),PHARM_CLASSES varchar(40),DEASCHEDULE varchar(40), primary key(PRODUCT_ID));
+--insert into drugs values ();
+--create table documents (id int NOT NULL AUTO_INCREMENT, content varchar(40), content_type varchar(40), created_at date, description varchar(40), filename varchar(40), user_id varchar(40), url varchar(60), primary key (id));
+--create table user (id int not null auto_increment, email varchar(40), password_hash varchar(40), role varchar(20), primary key (id));
+--
+--LOAD DATA LOCAL INFILE '/Download/ndcxls/product.xls' INTO TABLE drugs;
+
+--DROP TABLE IF EXISTS drugs;
+--CREATE TABLE drugs
+--(
+--id int(20) AUTO_INCREMENT,
+--name VARCHAR(50),
+--form VARCHAR(50),
+--dosage VARCHAR(50),
+--ingredient VARCHAR(50),
+--PRIMARY KEY (id)
+--);
