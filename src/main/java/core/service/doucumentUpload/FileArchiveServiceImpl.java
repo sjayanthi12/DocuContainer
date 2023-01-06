@@ -58,7 +58,7 @@ public class FileArchiveServiceImpl implements FileArchiveService{
 			File fileToUpload = convertFromMultiPart(multipartFile);
 			String key = Instant.now().getEpochSecond() + "_" + fileToUpload.getName();
 			
-			BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJ2QFZFCUCLFEE7GA", "kVzG/wBTLUW3oy2jqiAVibk+z7aeThqLerhZ5tEF");
+			//BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
 			
 			log.debug("step 1: " + awsCreds.getAWSAccessKeyId());
 
