@@ -39,8 +39,8 @@ public class DocumentDownloadServiceImpl implements DocumentDownloadService {
 		log.debug("Step 1: Entry in getDocument");
 		
 		// Need to move these creditentials to a config file
-		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAJ2QFZFCUCLFEE7GA",
-				"kVzG/wBTLUW3oy2jqiAVibk+z7aeThqLerhZ5tEF");
+		//BasicAWSCredentials awsCreds = new BasicAWSCredentials("",
+				"");
 		s3Client = new AmazonS3Client(awsCreds);
 
 		log.debug("Step 2: Entry in getDocument" + s3Client.getServiceName());
